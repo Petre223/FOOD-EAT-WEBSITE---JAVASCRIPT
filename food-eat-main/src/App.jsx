@@ -1,6 +1,8 @@
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import TopList from "./components/TopList/TopList"
+import Banner from "./components/Banner/Banner";
 import BgImage from "./assets/2.png";
 
 const bgStyle = {
@@ -16,6 +18,8 @@ const App = () => {
       <div className="min-h-screen bg-white/50 backdrop-blur-3xl">
         <Navbar />
         <Hero />
+        <TopList />
+        <Banner />
       </div>
     </div>
   )
