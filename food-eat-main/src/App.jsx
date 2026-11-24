@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import TopList from "./components/TopList/TopList"
 import Banner from "./components/Banner/Banner";
+import OurServices from "./components/OurServices/OurServices";
 import BgImage from "./assets/2.png";
 
 const bgStyle = {
@@ -20,6 +21,7 @@ const App = () => {
         <Hero />
         <TopList />
         <Banner />
+        <OurServices />
       </div>
     </div>
   )
